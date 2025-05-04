@@ -1,0 +1,53 @@
+/* Design Tokens */
+:root {
+    /* Colors */
+    --color-primary: #ffffff;
+    --color-background: var(--color-primary);
+    --color-text: #2c3e50;
+    --color-accent: #1a5276;
+    --color-accent-light: #2980b9;
+    --color-header: #2c3e50;
+    --color-header-text: var(--color-primary);
+    
+    /* Fonts */
+    --font-family-heading: 'Special Gothic Expanded One', sans-serif;
+    --font-family-body: 'Open Sans', sans-serif;
+    --font-size-base: 1rem;
+    --font-size-h1: 1.75rem;
+    --font-size-h2: 1.5rem;
+    --font-size-small: 0.875rem;
+    --line-height-base: 1.6;
+    --letter-spacing-heading: 0.05em;
+    --letter-spacing-subheading: 0.03em;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    /* Layout */
+    --max-width-content: 50rem;
+    --border-radius-sm: 0.25rem;
+    --border-radius-md: 0.5rem;
+    --border-radius-lg: 1rem;
+    --border-radius-circle: 50%;
+    --border-width-sm: 0.125rem;
+    --border-width-md: 0.2rem;
+    
+    /* Animation */
+    --transition-speed: 0.3s;
+    --transition-timing: ease;
+} 
+
+/* Dark mode overrides */
+body.dark-mode {
+    --color-primary: #121212;
+    --color-background: #121212;
+    --color-text: #e0e0e0;
+    --color-accent: #4dabf7;
+    --color-accent-light: #74c0fc;
+    --color-header: #000000;
+    --color-header-text:rgb(255, 255, 255);
+}
